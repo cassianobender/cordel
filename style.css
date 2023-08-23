@@ -1,0 +1,66 @@
+
+        @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Palanquin:wght@100;200;300;400;500&display=swap');
+        /*font-family: 'Indie Flower', cursive;
+          font-family: 'Palanquin', sans-serif;*/
+        @import url('https://fonts.googleapis.com/css2?family=Anton&family=Palanquin:wght@100;200;300;400;500&display=swap');
+        /*font-family: 'Anton', sans-serif;
+          font-family: 'Palanquin', sans-serif;*/
+  
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+ }
+ :root{
+    --corfundo: rgba(255, 235, 205, 0.429);
+ }
+ 
+  header{
+    font-family: 'Anton', sans-serif;
+    color: white;
+    background-color: black;
+    font-size: 3em;
+    padding: 5px;
+    padding-bottom: 0%;
+    text-align: center;
+    
+  }
+  p#title{
+    font-family: 'Palanquin', sans-serif;  
+    font-size: 0.5em; 
+  }
+
+  div{
+    border-color: black;
+    background-color: aqua;
+    height: 500px;
+  }
+  
+  div > p{
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+    font-size: 2em;
+    width: 400px;
+    padding: 10px;
+    margin-left: 15px;
+    border: 10px;
+    background-color: rgb(255, 38, 0);
+    background-size: auto;
+    
+  }
+
+ #div1{
+    background-color: var(--corfundo);
+ }
+ #p1{
+    background-color: transparent;
+ }
+ #div2{
+    background-image: url(profle.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+ #p2{
+    background-color: rgba(0, 0, 0, 0.185);
+ }

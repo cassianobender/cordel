@@ -20,47 +20,76 @@
     font-family: 'Anton', sans-serif;
     color: white;
     background-color: black;
-    font-size: 3em;
-    padding: 5px;
-    padding-bottom: 0%;
+    font-size: 5vw;
+    padding-top: 50px;
     text-align: center;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.164);
     
   }
-  p#title{
-    font-family: 'Palanquin', sans-serif;  
+  h2{
+    font-family: 'Franklin Gothic Medium'; 
     font-size: 0.5em; 
+    font-weight: lighter;
+    padding-bottom: 50px;
   }
 
   div{
-    border-color: black;
-    background-color: aqua;
-    height: 500px;
-  }
-  
-  div > p{
-    font-family: 'Indie Flower', cursive;
-    font-weight: bold;
-    font-size: 2em;
-    width: 400px;
-    padding: 10px;
-    margin-left: 15px;
-    border: 10px;
-    background-color: rgb(255, 38, 0);
-    background-size: auto;
+    height: 450px;
     
   }
-
- #div1{
-    background-color: var(--corfundo);
- }
- #p1{
+  p{
+    font-family: 'Indie Flower', cursive;
+    font-size: 1vw;
+    background-color: blueviolet;
+    width: 300px;
+    height: 400px;
+    margin: 15px;
+    padding: 5px;
+    border-radius: 20px;
+    position: absolute;
+    
+  }
+  #p1{
     background-color: transparent;
- }
- #div2{
+  }
+  #div1{
+    
+  }
+  #div2{
     background-image: url(profle.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
- }
- #p2{
-    background-color: rgba(0, 0, 0, 0.185);
- }
+    background-position: center center;
+    background-attachment: fixed;
+    box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.829);
+    display: inline-block;
+  }
+  #p2{
+    background-color: rgba(0, 0, 0, 0.349);
+    color: white;
+  }
+  #div3{
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.829);
+  }
+  #p3{
+    background-color: transparent;
+  }
+  #div4{
+    background-image: url(wallpaper002.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.829);
+  }
+  #p4{
+    background-color: rgba(0, 0, 0, 0.349);
+    color: white;
+  }
+  footer{
+    background-color: black;
+    text-align: center;
+    color: aliceblue;
+    box-shadow: 5px 5px 5px rgba(255, 255, 255, 0.829);
+  }
